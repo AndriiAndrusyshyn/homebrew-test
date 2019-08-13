@@ -1,4 +1,4 @@
-class testo < Formula
+class Testo < Formula
 
    homepage "https://github.com/AndriiAndrusyshyn"
    revision 0
