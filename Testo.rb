@@ -16,7 +16,7 @@ class Testo < Formula
 
    bottle do
       root_url "https://github.com/AndriiAndrusyshyn/archive/releases/tag/rel1"
-      sha256 "8620f6004ce1771e28984460371776c3c116fb79c07bbf9d6cf74f01b4ec693b" => :mojave
+      sha256 "a6e5def99e6006246aa1793f72c7e82a3e21fe863f7a6ff5af5e0b59948f5c0c" => :mojave
       
    end
    def install
