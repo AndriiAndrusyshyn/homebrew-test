@@ -1,8 +1,8 @@
 class Test < Formula
 
-   homepage "https://github.com/eosio/eos"
+   homepage "https://github.com/AndriiAndrusyshyn"
    revision 0
-   url "https://github.com/eosio/eos/archive/v1.8.1.tar.gz"
+   url "https://github.com/AndriiAndrusyshyn/archive/blob/master/rtest.mojave.bottle.tar.gz"
    version "1.8.1"
 
    option :universal
@@ -15,8 +15,8 @@ class Test < Formula
    depends_on :arch =>  :intel
 
    bottle do
-      root_url "https://github.com/eosio/eos/releases/download/v1.8.1"
-      sha256 "f29fe13e6afe372d98d4b8b6003381a6d96c0773f049cf116515a4e46e4379a1" => :mojave
+      root_url "https://github.com/AndriiAndrusyshyn/archive/releases/tag/rel1"
+      
    end
    def install
       raise "Error, only supporting binary packages at this time"
